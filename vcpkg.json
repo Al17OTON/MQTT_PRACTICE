@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "async-mqtt",
+    "boost-asio",
+    "openssl"
+  ]
+}
