@@ -7,7 +7,8 @@
 
 ## 1. Start
 1. install vcpkg  
-    - 환경 변수에 등록
+    - 환경 변수 Path에 등록
+    - VCPKG_ROOT 라는 이름을 가진 환경 변수 추가 (Visual Studio 인식을 위한 설정)
 
 2. vcpkg 설정
     ```
