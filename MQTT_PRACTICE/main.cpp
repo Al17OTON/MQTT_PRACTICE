@@ -243,7 +243,7 @@ proc(
                 "Password1"
             );
             if (connack_opt) {
-                std::cout << *connack_opt << std::endl;
+                std::cout << "SUB - " << *connack_opt << std::endl;
             }
 
             // subscribe
@@ -258,7 +258,7 @@ proc(
                 am::force_move(sub_entry)
             );
             if (suback_opt) {
-                std::cout << *suback_opt << std::endl;
+                std::cout << "SUB - " << *suback_opt << std::endl;
             }
 
             // recv (coroutine)
@@ -314,7 +314,7 @@ int main() {
     app a{ ioc.get_executor(), host, port };
     ioc.run();
 
-	
+
 }
 
 bool check_version() {
